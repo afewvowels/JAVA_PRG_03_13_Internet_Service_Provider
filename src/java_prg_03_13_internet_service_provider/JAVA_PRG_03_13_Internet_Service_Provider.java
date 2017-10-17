@@ -81,6 +81,7 @@ public class JAVA_PRG_03_13_Internet_Service_Provider {
                 {
                     JOptionPane.showMessageDialog(null, "Please enter a number\n"
                         + "of hours greater than 0.");
+                    System.exit(0);
                 }
                 break;
             case "b":
@@ -97,6 +98,7 @@ public class JAVA_PRG_03_13_Internet_Service_Provider {
                 {
                     JOptionPane.showMessageDialog(null, "Please enter a number\n"
                         + "of hours greater than 0.");
+                    System.exit(0);
                 }
                 break;
             case "c":
@@ -104,6 +106,7 @@ public class JAVA_PRG_03_13_Internet_Service_Provider {
                 break;
             default:
                 JOptionPane.showMessageDialog(null, "ERROR CALCULATING TOTAL");
+                System.exit(0);
                 break;
         }
         
